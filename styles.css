@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+body{
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#seleccionar-mascota{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    color:rgb(255, 255, 255);
+    font-family: 'Orbitron', sans-serif;
+    width: 400px;
+    height: 60px;
+    font-size: 55px;
+}
+
+.subtitulo{
+    color: white;
+}
+
+
+.tarjetas{
+    display: flex;
+    gap: 10px;
+}
+.tarjeta-de-mokepunk{
+    width: 210px;
+    height: 150px;
+    background-color: #cc00ff85;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid white;
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer
+}
+
+.tarjeta-de-mokepunk img{
+    width: 100px;
+}
+
+input{
+    display: none;
+}
+
+#boton-mascota{
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    background: transparent;
+    border: 3px solid white;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    margin-top: 30px;
+    cursor: pointer
+}

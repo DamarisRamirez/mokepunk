@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>MOKEPUNK!</title>
+        <script src="./js/mokepon.js"></script>
+        <link rel="stylesheet" href="./styles.css">
+        <style>
+            body {
+                background-image:url(fondo.jpg!w700wp);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <section id="seleccionar-mascota"> 
+            <h1 class="titulo">MOKEPUNK!</h1>
+            <h2 class="subtitulo" >Elige tu mascota:</h2>
+
+            <div class="tarjetas">
+                
+                <label class="tarjeta-de-mokepunk"  for="hipodoge">
+                    <p>Hipodoge</p>
+                    <img src="./assets/DALL·E 2023-04-17 12.28.23 - un hipopotamo ciberpunk, estilo 3d.png" alt="Hipodoge">
+                </label>
+                <input type="radio" name="mascota" id="hipodoge">
+
+                <label class="tarjeta-de-mokepunk"  for="capipepo">
+                    <p>Capipepo</p>
+                    <img src="./assets/DALL·E 2023-04-17 12.28.09 - un coipo ciberpunk, estilo 3d.png" alt="Capipepo">
+                </label>
+                <input type="radio" name="mascota" id="capipepo">
+
+                <label class="tarjeta-de-mokepunk"  for="ratigueya">
+                    <p>Ratigueya</p>
+                    <img src="./assets/DALL·E 2023-04-17 12.27.58 - una rata, ciberpunk, estilo 3d.png" alt="Ratigueya">
+                </label>
+                <input type="radio" name="mascota" id="ratigueya">
+            
+            </div>
+
+
+
+            <button id="boton-mascota">Seleccionar</button>
+
+        </section>
+            
+
+        <section id="seleccionar-ataque"> 
+            <h1 class="titulo">MOKEPUNK!</h1>
+            <h2>Selecciona tipo de ataque</h2>
+
+            <p>Tu mascota <span id="mascota-jugador"></span> tiene <span id="vida-jugador">3</span> vidas</p>
+            <p>La mascota <span id="mascota-enemigo"></span> del enemigo tiene <span id="vida-enemigo">3</span> vidas </p>
+            <p>
+                <button id="boton-fuego"> Fuego 🔥</button>
+                <button id="boton-agua"> Agua 🐳 </button>
+                <button id="boton-tierra"> Tierra 🌱</button>
+            </p>
+        </section>
+
+        <section id="mensajes"> 
+        </section>
+
+        <section id="reiniciar">
+            <button id="boton-reiniciar">Reiniciar</button>
+        </section>
+
+       
+    </body>
+
+</html>

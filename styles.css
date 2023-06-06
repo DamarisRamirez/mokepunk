@@ -64,3 +64,18 @@ input{
     margin-top: 30px;
     cursor: pointer
 }
+
+#seleccionar-ataque{
+    /* display:flex; No se necesita, puesto que en js ya esta indicado el flex*/
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton-de-ataque{
+    background-color: #cc00ff85;
+    padding: 10px;
+    border: 2px solid white;
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 20px;
+    color: white;
+}

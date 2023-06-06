@@ -46,7 +46,7 @@ function seleccionarMascotaJugador() {
     }
     //Al elegir mascota, aparece la seccion de ataque
     let sectionSeleccionarAtaque= document.getElementById("seleccionar-ataque")
-    sectionSeleccionarAtaque.style.display="block"
+    sectionSeleccionarAtaque.style.display="flex"
 //Ahora debe desaparecer la seccion mascota
     let sectionSeleccionarMascota= document.getElementById("seleccionar-mascota")
     sectionSeleccionarMascota.style.display="none"

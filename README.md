@@ -1,4 +1,15 @@
-# mokepunk
-Minijuego realizado siguiendo el "curso de programación básica" de Platzi.
-Las imagenes de Capipepo, Ratigueya e Hipodoge fueron generadas con la IA DALL-E 2
-![Captura de pantalla](capturaMokepon.png)
+# 🐾 Mokepunk
+
+Un pequeño juego interactivo inspirado en Pokémon, desarrollado en JavaScript puro.
+
+🚀 [¡Probar el juego en vivo!](https://damarisramirez.github.io/mokepunk)
+
+## Tecnologías
+
+- HTML5
+- CSS3
+- JavaScript (vanilla)
+
+## Captura
+
+![Captura del juego](./capturaMokepom.png)

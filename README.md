@@ -12,4 +12,4 @@ Un pequeño juego interactivo inspirado en Pokémon, desarrollado en JavaScript 
 
 ## Captura
 
-![Captura del juego](./capturaMokepom.png)
+![Captura del juego](capturaMokepom.png)
